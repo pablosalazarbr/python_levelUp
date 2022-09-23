@@ -46,6 +46,7 @@ def login():
     data = {
         'titulo' : 'Bookshelf - Inicio de Sesion'
     }
+    return render_template('login.html', data = data)
 
 
 #Ejecutamos la aplicacion
