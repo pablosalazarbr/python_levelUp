@@ -46,4 +46,8 @@ def login():
     data = {
         'titulo' : 'Bookshelf - Inicio de Sesion'
     }
-    
+
+
+#Ejecutamos la aplicacion
+if __name__ == '__main__':
+    app.run(debug = True, port = 5000)
