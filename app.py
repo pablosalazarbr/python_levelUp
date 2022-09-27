@@ -44,7 +44,7 @@ def error404():
 def login():
     #Variable que contiene los datos a configurar en la plantilla html
     data = {
-        'titulo' : 'Bookshelf - Inicio de Sesion'
+        'titulo' : 'Traeguate - Admin'
     }
     return render_template('login.html', data = data)
 
